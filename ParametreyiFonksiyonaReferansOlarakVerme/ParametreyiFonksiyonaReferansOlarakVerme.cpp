@@ -28,6 +28,12 @@ int main()
 {
 	dortgen d1;
 	fonksiyon(d1);
+
+	/*
+	dortgen d1(8);
+	fonksiyon(dortgen(5));
+	
+	*/
     
 }
 
