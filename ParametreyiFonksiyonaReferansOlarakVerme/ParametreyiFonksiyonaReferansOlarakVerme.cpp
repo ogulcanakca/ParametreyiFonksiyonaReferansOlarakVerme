@@ -12,6 +12,9 @@ public:
 		cout << this << ": yokedici()"<< endl;
 
 	}
+	dortgen() {
+		cout << this << ": dortgen()" << endl;
+	}
 	
 	int gen;
 
@@ -23,8 +26,8 @@ void fonksiyon(const dortgen& d) {
 
 int main()
 {
-	dortgen d1(8);
-	fonksiyon(dortgen(5));
+	dortgen d1;
+	fonksiyon(d1);
     
 }
 
